@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.box1{
+    border: 3px solid red;
+    border-radius: 22px;
+    background-color: black;
+    height: 130px;
+    width: 300px;
+    font-size: 18px;
+    text-align: center;
+       
+}
+.box2{
+    border: 3px solid red;
+    border-radius: 22px;                                                             
+    width: 300px;
+    height: 75px;
+    background-color: black;
+    text-align: center;
+    font-size: 18px;
+}
+body{
+    background-image: url("./backgroundimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid green;
+    
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+.container2{
+    border: 5px dashed rgb(248, 38, 38);
+    width: 350px;
+    margin-right: 500px;
+    margin-top: 75px;
+    text-align: center;
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.container4{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.circle{
+    border: 3px solid gray;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-top: 300px;
+    margin-left: 45px;
+    background-color: mediumaquamarine;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: medium;
+}
+.menu{
+   border: 3px solid red;
+   border-radius: 20px;
+   background-color: black;
+   width: 300px;
+   margin: auto;
+   padding: 15px;
+   margin-top: 60px;
+   color: white; 
+   text-align: center;
+}
+li{
+    font-size: 20px;
+    text-align: start;
+    margin-left: 80px;
+}
+
+
+.list{
+    border: 4px solid green;
+    border-radius: 18px;
+    background-color: lawngreen;
+    color: midnightblue;
+    width: 30%;
+    margin-bottom: 10px;
+    font-family: 20px;
+    text-align: center;
+
+}
